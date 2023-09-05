@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* header */
+.text-green {
+  color: #75bf7a;
+}
+.btn-green {
+  background-color: #75bf7a;
+}
+.btn-green:hover {
+  background-color: #75bf7a !important;
+}
+
+.logo {
+  font-family: ITC Avant Garde Gothic Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65.257px;
+}
+.brand-logo {
+  margin-top: 12px;
+}
+
+.vektor {
+  position: relative;
+  margin-top: 6px;
+  margin-right: -30px;
+  transform: rotate(0deg);
+}
+
+.nav-link {
+  font-family: Gilroy;
+  font-size: 17.161px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbar-toggler {
+  border: 0px;
+}
+
+/* main */
+
+.download-app {
+  width: 100%;
+  height: auto;
+  background-color: #f9f9f9;
+}
+.download-text {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65.91px; /* 108.537% */
+}
+
+.download-btn {
+  width: 260px;
+}
+
+.apply-drive {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.bg-green {
+  background-color: #75bf7a;
+}
+
+.btn-dark {
+  background-color: #000;
+}
+
+.work {
+  width: 100%;
+  height: auto;
+  margin-top: 128px;
+}
+.card-1 {
+  position: relative;
+  margin-top: 12.9px;
+  margin-right: -37.9px;
+}
+.card-3 {
+  position: relative;
+  margin-top: 12.9px;
+  margin-right: -37.9px;
+}
+.card-2 {
+  position: relative;
+  margin-top: 12.9px;
+  margin-right: -37.9px;
+}
+.card-4 {
+  position: relative;
+  margin-top: 12.9px;
+  margin-right: -37.9px;
+}
+
+.phone-bg {
+  position: absolute;
+  margin-top: 70px;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 400px;
+  z-index: 1;
+}
+.phone-img {
+  z-index: 2;
+}
+
+.benefits {
+  width: 100%;
+  height: auto;
+  margin-top: 87px;
+}
+
+.card-benefits {
+  width: 85%;
+  height: auto;
+}
+.card-font-size {
+  font-size: 88px;
+}
+
+footer {
+  margin-top: 276px;
+}
+
+.vektor-footer {
+  position: relative;
+  margin-right: -22px;
+  margin-top: -15px;
+}
+.footer-brand {
+  font-family: ITC Avant Garde Gothic Pro;
+}
+.download-btn-footer {
+  width: 180px;
+}
