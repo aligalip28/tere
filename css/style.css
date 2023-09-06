@@ -9,6 +9,26 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+a.nav-link {
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  position: relative;
+}
+
+a.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #75bf7a;
+  transition: 0.5s ease-out;
+}
+a.nav-link:hover::before {
+  width: 100%;
+}
+
 /* header */
 .text-green {
   color: #75bf7a;
